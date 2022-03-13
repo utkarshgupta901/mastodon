@@ -1,0 +1,15 @@
+---
+framework: jest
+preRun:
+  command:
+    - yarn
+preMerge:
+  pattern:
+    - "**/*-test.js"
+postMerge:
+  pattern:
+    - "**/*-test.js"
+
+configFile: "package.json"
+
+version: 1.0
